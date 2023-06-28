@@ -1,8 +1,10 @@
-const positiveSum = require('./01-SumOfPositive');
-const partlist = require('./02-PartsOfAList');
-const removeChar = require('./03-RemoveFirstAndLastCharacter');
-const countLanguages = require('./04-PrepareTheCountOfLanguages');
-//task1
+const positiveSum = require('../01-SumOfPositive');
+const partlist = require('../02-PartsOfAList');
+const removeChar = require('../03-RemoveFirstAndLastCharacter');
+const countLanguages = require('../04-PrepareTheCountOfLanguages');
+
+//test1
+
 describe('Sum of positive', () => {
   let array;
   beforeAll(() => {
@@ -28,9 +30,8 @@ describe('Sum of positive', () => {
     });
   });
 });
-// end of task 1
 
-//task 2
+//test 2
 describe('partlist', () => {
   let array;
   beforeAll(() => {
@@ -69,9 +70,8 @@ describe('partlist', () => {
     });
   });
 });
-//end of task 2
 
-//task 3:
+//test 3:
 describe('removeChar', () => {
   beforeAll(() => {
     let string = '';
@@ -106,9 +106,8 @@ describe('removeChar', () => {
     });
   });
 });
-// end of task 3
 
-//task 4:
+//test 4:
 describe('countLanguages', () => {
   let participants;
   beforeAll(() => {
